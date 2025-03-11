@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-default-color-scheme=auto>
+<html lang="en" data-default-color-scheme=dark>
 
 
 
@@ -59,6 +59,10 @@
 
 
 
+  
+<link rel="stylesheet" href="/acky.github.io/css/custom.css">
+
+
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
@@ -91,9 +95,9 @@
 
 
 <body>
-  
 
-  <header>
+
+<header>
     
 
 <div class="header-inner" style="height: 60vh;">
@@ -216,18 +220,18 @@
 
 </div>
 
-  </header>
+</header>
 
-  <main>
+<main>
     
-      <div class="container nopadding-x-md">
-        <div id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
+        <div class="container nopadding-x-md">
+            <div id="board"
+                    >
                 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-10 m-auto">
+                            
 
 <div class="list-group">
   <p class="h4">5 posts in total</p>
@@ -255,21 +259,21 @@
 
 
 
-              </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     
 
     
-      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
-        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
-      </a>
+        <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+            <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+        </a>
     
 
     
-      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+        <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
      aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
@@ -293,9 +297,9 @@
     
 
     
-  </main>
+</main>
 
-  <footer>
+<footer>
     <div class="footer-inner">
     
         <div class="footer-content">
@@ -338,7 +342,7 @@
       var now = new Date();
 
       function createtime() {
-        var grt = new Date("08/10/2018 17:38:00");//在此处修改你的建站时间，格式：月/日/年 时:分:秒
+        var grt = new Date("09/10/2024 17:38:00");//在此处修改你的建站时间，格式：月/日/年 时:分:秒
         now.setTime(now.getTime() + 250);
         days = (now - grt) / 1000 / 60 / 60 / 24;
         dnum = Math.floor(days);
@@ -357,7 +361,7 @@
         if (String(snum).length == 1) {
           snum = "0" + snum;
         }
-        document.getElementById("timeDate").innerHTML = "本站勉强运行 " + dnum + " 天 ";
+        document.getElementById("timeDate").innerHTML = "本站运行 " + dnum + " 天 ";
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
       }
 
@@ -365,10 +369,10 @@
     </script>
 </div>
 
-  </footer>
+</footer>
 
-  <!-- Scripts -->
-  
+<!-- Scripts -->
+
   <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
   <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
 
@@ -425,9 +429,9 @@
 <script  src="/acky.github.io/js/boot.js" ></script>
 
 
-  
-  <noscript>
+
+<noscript>
     <div class="noscript-warning">Blog works best with JavaScript enabled</div>
-  </noscript>
+</noscript>
 </body>
 </html>

@@ -1,3 +1,6 @@
+/*设置背景图片*/
 body {
     background-color: black;
+    /*background-size: cover;*/
+    /*background: url("../img/index1.jpg") no-repeat fixed;*/
 }
